@@ -26,3 +26,8 @@ function decrement() {
     }
     
 }
+
+function reset() {
+    data = 0;
+    document.getElementById("counting").innerText = data;
+}
