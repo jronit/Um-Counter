@@ -4,6 +4,10 @@ var data = 0;
 document.getElementById("counting").innerText = data;
   
 //creation of increment function
+
+function on_load() {
+    document.getElementById("counting").innerText = data;
+}
 function increment() {
     data = data + 1;
     document.getElementById("counting").innerText = data;
