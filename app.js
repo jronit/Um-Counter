@@ -15,5 +15,13 @@ function increment() {
 //creation of decrement function
 function decrement() {
     data = data - 1;
-    document.getElementById("counting").innerText = data;
+    if(data>=0){
+        document.getElementById("counting").innerText = data;
+    }
+    else {
+        data = data + 1;
+        
+        
+    }
+    
 }
