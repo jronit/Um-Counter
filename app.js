@@ -20,6 +20,7 @@ function decrement() {
     }
     else {
         data = data + 1;
+        alert("Postive tally expected")
         
         
     }
